@@ -14,3 +14,6 @@ ecmascript@0.9.0              # Enable ECMAScript2015+ syntax in app code
 
 react-meteor-data
 static-html
+mdg:validated-method
+aldeed:collection2-core@2.0.0
+didericis:callpromise-mixin

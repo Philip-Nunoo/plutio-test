@@ -1,1 +1,1 @@
-export { Submission } from './_submission';
+export { Submission, SubmissionSchema } from './_submission';
