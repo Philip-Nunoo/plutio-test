@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
   AutoForm,
   AutoField,
@@ -84,5 +85,14 @@ class SubmissionForm extends Component {
     );
   }
 }
+
+SubmissionForm.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
+  model: PropTypes.shape({
+    firstName: PropTypes.string,
+    lastName: PropTypes.string,
+    age: PropTypes.number,
+  })
+};
 
 export default SubmissionForm;
